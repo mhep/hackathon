@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<!-- <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" /> -->
+<meta name="theme-color" content="#ffffff" /> <title>Weather Reports Hackathon</title>
+<!-- <meta
+  name="description"
+  content="A modern and minimal CSS framework for terminal lovers."
+/> -->
+<!-- <link rel="stylesheet" href="/css/normalize.css" /> -->
+<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+
+<style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+  </style>
+
+  </head>
+  <body class="terminal">
+    <div class="container">
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="" class="no-style">Weather Reports Hackathon</a></div>
+    </header>
+    
+  </div>
+</div>
+
+    <div class="container">
+      <p>
+	Digital Humanities Hackathon in Potsdam, May 2023.
+	</p>
+      
+      <h2 id="project">The project</h2>
+<p>...</p>
+
+      <hr />
+      <div class="components components-grid">
+        <aside id="menu">
+  <h2>HACKATHON</h2>
+  <nav>
+    <ul>
+      <li><a href="#Participants">Participants</a></li>
+      <li><a href="#Timeline">Timeline</a></li>
+      <li><a href="#Location">Location</a></li>
+    </ul>
+  </nav>
+
+  <h2>Projects</h2>
+  <nav>
+    <ul>
+   <li><a href="#Project1">Project 1</a></li>
+   <li><a href="#Project2">Project 2</a></li>
+    </ul>
+  </nav>
+</aside>
+
+        <main>
+          <section>
+<header>
+	<h2 id="Participants">Participants</h2>
+    <div class="terminal-card">
+      <header>Person 1</header>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+        incidunt. Eaque quod et, aut maiores excepturi sint.
+      </div>
+    </div>
+	<br>
+    <div class="terminal-card">
+      <header>Person 2</header>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+        incidunt. Eaque quod et, aut maiores excepturi sint.
+      </div>
+    </div>
+	
+</header>
+</section>
+
+
+<hr />
+<section>
+  <header><h2 id="Timeline">Timeline</h2></header>
+  
+  <div class="terminal-timeline">
+    <div class="terminal-card">
+      <header>Card Title</header>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+        incidunt. Eaque quod et, aut maiores excepturi sint.
+      </div>
+    </div>
+    <div class="terminal-card">
+      <header>Card Title</header>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+        incidunt. Eaque quod et, aut maiores excepturi sint.
+      </div>
+    </div>
+  </div>
+  <br />
+</section>
+<hr />
+<section>
+  <header><h2 id="Location">Location</h2></header>
+
+  <br />
+</section>
+
+</div>
+<hr />
+
+      <h2 id="Project1">Project 1</h2>
+<p>...</p>
+
+      <h2 id="Project2">Project 2</h2>
+<p>...</p>
+
+          <footer>
+  <p>
+    The theme for this site is based on <a href="https://terminalcss.xyz">Terminal CSS</a>.
+  </p>
+</footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
