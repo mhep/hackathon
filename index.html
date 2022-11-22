@@ -40,7 +40,13 @@
         grid-template-columns: 3fr 9fr;
       }
     }
-  </style>
+	
+	.grid-container {
+	    display: inline-grid;
+	     grid-template-columns: auto auto auto;
+	     column-gap: 50px;
+	}
+	</style>
 
   </head>
   <body class="terminal">
@@ -62,12 +68,14 @@
 <p>...</p>
 
       <hr />
-      <div class="components components-grid">
-        <aside id="menu">
+      
+<div class="components components-grid">
+<aside id="menu">
+  
   <h2>HACKATHON</h2>
   <nav>
     <ul>
-      <li><a href="#Participants">Participants</a></li>
+      <li><a href="#Fellows">Fellows</a></li>
       <li><a href="#Timeline">Timeline</a></li>
       <li><a href="#Location">Location</a></li>
       <li><a href="#Schedule">Schedule</a></li>
@@ -93,28 +101,27 @@
   </nav>
 </aside>
 
-        <main>
-          <section>
+<main>
+<section>
 <header>
-	<h2 id="Participants">Participants</h2>
+	
+	<h2 id="Fellows">Fellows</h2>
     <div class="terminal-card">
-      <header>Person 1</header>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
-        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
-        incidunt. Eaque quod et, aut maiores excepturi sint.
-      </div>
+		<header>Person 1</header>
+		<div class="grid-container">
+ 			  <div class="grid-item"><img src="images/profile1.png"></div>
+			  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas ex vero enim in doloribus officiis ullam vel nam esse sapiente velit incidunt. Eaque quod et, aut maiores excepturi sint.</div>
+		</div>
     </div>
+	
 	<br>
     <div class="terminal-card">
       <header>Person 2</header>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
-        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
-        incidunt. Eaque quod et, aut maiores excepturi sint.
-      </div>
+	<div class="grid-container">
+		  <div class="grid-item"><img src="images/profile2.png"></div>
+		  <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas ex vero enim in doloribus officiis ullam vel nam esse sapiente velit incidunt. Eaque quod et, aut maiores excepturi sint.</div>
+	</div>
     </div>
-	
 </header>
 </section>
 
